@@ -26,7 +26,7 @@
             "problemMatcher": "$msCompile"
         },
         {
-            "label": "Clean",
+            "label": "Clean Debug",
             "type": "shell",
             "command": "msbuild",
             "args": [
