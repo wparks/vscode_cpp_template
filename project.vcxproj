@@ -26,10 +26,10 @@
         <Import Project="project.props" />
     </ImportGroup>
     <PropertyGroup Label="UserMacros" />
-    <PropertyGroup Condition="$(Configuration)==Debug">
+    <PropertyGroup Condition="'$(Configuration)'=='Debug'">
         <LinkIncremental>true</LinkIncremental>
     </PropertyGroup>
-    <PropertyGroup Condition="$(Configuration)==Release">
+    <PropertyGroup Condition="'$(Configuration)'=='Release'">
         <LinkIncremental>false</LinkIncremental>
     </PropertyGroup>
     <ItemDefinitionGroup />
