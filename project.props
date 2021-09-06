@@ -3,7 +3,8 @@
     <ImportGroup Label="PropertySheets" />
     <PropertyGroup>
         <ReplaceWildcardsInProjectItems>true</ReplaceWildcardsInProjectItems>
-        <OutDir>$(ProjectDir)build\$(PlatformShortName)\$(Configuration)\</OutDir>
+        <OutDir>$(ProjectDir)build\bin\$(PlatformShortName)\$(Configuration)\</OutDir>
+        <IntDir>$(ProjectDir)build\tmp\$(PlatformShortName)\$(Configuration)\</IntDir>
     </PropertyGroup>
     <PropertyGroup Label="UserMacros" />
     <PropertyGroup />
